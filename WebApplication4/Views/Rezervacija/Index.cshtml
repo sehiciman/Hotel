@@ -1,0 +1,169 @@
+﻿@model IEnumerable<WebApplication4.Models.Soba>
+
+@{
+ViewData["Title"] = "Sobe";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('pozadina3.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .input-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            margin-top: 12%;
+        }
+        .pravougaonik {
+            background-color: rgba(255, 255, 255, 0.75);
+            color: rgba(89, 46, 36, 1);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            border-width: 0px;
+            border-style: solid;
+            border-color: rgba(212, 215, 217, 1);
+            border-radius: 4px;
+            text-align: left;
+            font-weight: 400;
+            font-style: normal;
+            height: 68px;
+            width: 340px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 0 20px;
+        }
+        .soba-container {
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            max-height: 70vh;
+            overflow-y: auto;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+        }
+
+        .soba-pravougaonik {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            height: 518px;
+            width: 783px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            padding: 20px;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .soba-pravougaonik:hover {
+            transform: scale(1.05);
+        }
+        .submit-button {
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            height: 68px;
+            width: 68px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgba(89, 46, 36, 1);
+            border-width: 0px;
+            border-style: solid;
+            border-color: rgba(2, 90, 191, 1);
+            border-radius: 10px;
+        }
+        .submit-button:hover {
+            background-color: #AD7A4E;
+        }
+    </style>
+</head>
+<body>
+<div class="input-container">
+    <input type="date" id="dolazak" class="pravougaonik" placeholder="Datum dolaska" />
+    <input type="date" id="odlazak" class="pravougaonik" placeholder="Datum odlaska" />
+    <select id="gosti" class="pravougaonik">
+        <option value="1">1 Gost</option>
+        <option value="2">2 Gosta</option>
+        <option value="3">3 Gosta</option>
+        <option value="4">4 Gosta</option>
+        <option value="5">5 Gostiju</option>
+    </select>
+   
+    <button id="pretraga" class="submit-button">✔</button>
+</div>
+<div id="sobe" class="soba-container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Naziv sobe</th>
+            <th>Cijena</th>
+            
+            <th>Broj osoba</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>  
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                <a asp-action="Create" asp-route-sobaId="@item.ID" style="color: rgba(89, 46, 36, 1)">
+                    @Html.DisplayFor(modelItem => item.nazivSobe)
+                </a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cijenaSobe) EUR
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brojOsoba)
+            </td>
+        </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+
+<script>
+    document.getElementById("pretraga").onclick = function () {
+        
+       
+        const data = @Html.Raw(Json.Serialize(Model));
+
+        const sobeContainer = document.getElementById("sobe");
+        sobeContainer.style.display = 'block';
+
+        
+    };
+</script>
+
+</body>
+</html>

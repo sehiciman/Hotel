@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.ibb.co/XJfkGJW/pozadina-2.jpg-2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Added to align items vertically */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 0 90px;
+        }
+
+        .pravougaonik {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            height: 618px;
+            width: 883px;
+            transition: transform 0.3s;
+            position: relative;
+            margin: 0 50px;
+            text-decoration: none;
+        }
+
+            .pravougaonik img {
+                position: absolute;
+                height: 474px;
+                width: 447px;
+                top: 55%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 20px;
+            }
+
+        .tekst {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            line-height: 78px;
+            letter-spacing: -1.6px;
+            color: rgb(89, 46, 36);
+            font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 32px;
+            text-align: center;
+            touch-action: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+
+        .pravougaonik:hover {
+            transform: scale(1.02);
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 1;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            border-radius: 20px;
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                border-radius: 20px;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: rgba(89, 46, 36, 0.8);
+                    color: white;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgba(89, 46, 36, 0.8);
+            color: white;
+        }
+
+        /* New styles for the bottom registration button */
+        .bottom-button {
+            margin-top: 20px; /* Adjust as needed */
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: rgb(89, 46, 36);
+            font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .bottom-button:hover {
+                background-color: rgba(89, 46, 36, 0.8);
+                color: white;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a asp-controller="Lokacija" asp-action="Index" class="pravougaonik">
+            <span class="tekst">LOKACIJA</span>
+            <img src="~/lokacija.png" alt="lokacija">
+        </a>
+
+        <a asp-controller="Soba" asp-action="Index" class="pravougaonik">
+            <span class="tekst">UPRAVLJANJE SOBAMA</span>
+            <img src="~/soba.png" alt="soba">
+        </a>
+    </div>
+
+    <!-- New bottom registration button -->
+    <a asp-area="Identity" asp-page="/Account/Register" class="bottom-button">Registriraj korisnika</a>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.ibb.co/XJfkGJW/pozadina-2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 0 90px;
+        }
+
+        .pravougaonik {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            height: 618px;
+            width: 400px;
+            transition: transform 0.3s;
+            position: relative;
+            margin: 0 30px;
+            text-decoration: none;
+        }
+
+        .tekst {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            line-height: 78px;
+            letter-spacing: -1.6px;
+            color: rgb(89, 46, 36);
+            font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 32px;
+            text-align: center;
+            touch-action: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+
+        .pravougaonik:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <a asp-controller="Korisnik" asp-action="IndexA" class="pravougaonik">
+            <span class="tekst">Administrator meni</span>
+        </a>
+
+        <a asp-controller="Korisnik" asp-action="IndexU" class="pravougaonik">
+            <span class="tekst">Uposlenik meni</span>
+        </a>
+
+        <a asp-controller="Korisnik" asp-action="Index" class="pravougaonik">
+            <span class="tekst">Korisnik meni</span>
+        </a>
+    </div>
+
+</body>
+
+</html>

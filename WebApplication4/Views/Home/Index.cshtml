@@ -1,0 +1,166 @@
+﻿
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('pozadina-2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .small-image {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+      
+
+        .content{
+            margin-top: 50px;
+        }
+        .content img {
+            margin-top: 50px;
+            
+        }
+        .form-container {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-container input, .form-container .checkbox-container {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 448px;
+        }
+        .form-container .checkbox-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form-container button {
+            margin-left: 10px; 
+            height: 40px;
+            width: 92px;
+            border-radius: 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+        }
+        .form-container .register-text {
+            margin-top: 20px;
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+
+<div class="content">
+
+<img src="naziv.png" alt="Hotel Sarajevo" style="width: 714px; height: 118px;"> 
+</div>
+
+
+<div class="form-container">
+    <form method="post" asp-area="Identity" asp-page="/Account/Login" style="display: flex; flex-direction: column; align-items: center;">
+        <input type="text" name="username" placeholder="Username" style="
+                        background-color: rgba(56, 34, 29, 0.9);
+                        color: rgba(255, 255, 255, 1);
+                        font-size: 20px;
+                        font-family: Arial, sans-serif, Arial;
+                        border-width: 0px;
+                        border-style: solid;
+                        border-color: rgba(0, 0, 0, 1);
+                        border-radius: 20px;
+                        text-align: center;
+                        font-weight: 400;
+                        font-style: normal;
+                        padding: 10px; 
+                        width: 448px; 
+                        height: 79px; 
+                        margin-bottom: 10px; 
+                    ">
+
+        <input type="password" name="password" placeholder="Password" style="
+                            background-color: rgba(255, 255, 255, 0.75);
+                            color: rgba(89, 46, 36, 1);
+                            font-size: 20px;
+                            font-family: Arial, sans-serif, Arial;
+                            border-width: 0px;
+                            border-style: solid;
+                            border-color: rgba(0, 0, 0, 1);
+                            border-radius: 20px;
+                            text-align: center;
+                            font-weight: 400;
+                            font-style: normal;
+                            padding: 10px; 
+                            width: 448px; 
+                            height: 79px; 
+                            margin-bottom: 10px; /* Dodaj malo razmaka sa desne strane polja */
+                        ">
+
+        <div class="checkbox-container" style="display: flex; align-items: center;">
+            <button type="submit" style="
+                            text-align: center;
+                            background: rgba(56, 34, 29, 1);
+                            border-width: 0px;
+                            border-style: solid;
+                            border-color: rgba(2, 90, 191, 1);
+                            border-radius: 20px;
+                            width: 92px; /* Postavi širinu dugmeta */
+                            height: 79px; /* Postavi visinu dugmeta */
+                            font-size: 20px; /* Povećaj font na dugmetu */
+                            color: white; /* Boja teksta na dugmetu */
+                        ">&#10003;</button>
+        </div>
+    </form>
+
+    <div class="register-text">
+        <span style="line-height: 29px;
+                letter-spacing: 0px;
+                color: rgba(255, 255, 255, 1);
+                font-family: 'custom-font-87a87ede-2e41-4d33-8b59-968123e03b36', Arial;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 24px;
+                text-align: center;">Nisi korisnik? <a  style="line-height: 29px;
+                letter-spacing: 0px;
+                color: #AD7A4E;
+                font-family: custom-font-87a87ede-2e41-4d33-8b59-968123e03b36, Arial;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 24px;
+                text-align: center;
+                touch-action: none;
+                user-select: none;
+                -webkit-user-drag: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            "
+                                                        asp-area="Identity" asp-page="/Account/Register" >Register</a> </span>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>

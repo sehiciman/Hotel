@@ -1,0 +1,44 @@
+﻿@model WebApplication4.Models.Ponuda
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Ponuda</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="nazivPonude" class="control-label"></label>
+                <input asp-for="nazivPonude" class="form-control" />
+                <span asp-validation-for="nazivPonude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sobaId" class="control-label"></label>
+                <select asp-for="sobaId" class="form-control" asp-items="ViewBag.sobaId"></select>
+                <span asp-validation-for="sobaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="novaCijena" class="control-label"></label>
+                <input asp-for="novaCijena" class="form-control" />
+                <span asp-validation-for="novaCijena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

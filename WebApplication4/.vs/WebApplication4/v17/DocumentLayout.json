@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotelaplikacija\\hotelsa\\webapplication4\\controllers\\lokacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:controllers\\lokacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotelaplikacija\\hotelsa\\webapplication4\\views\\lokacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\lokacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotelaplikacija\\hotelsa\\webapplication4\\views\\lokacija\\indexl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\lokacija\\indexl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094755_dodavanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240912094755_dodavanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotelaplikacija\\hotelsa\\webapplication4\\models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094345_koordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240912094345_koordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LokacijaController.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Controllers\\LokacijaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LokacijaController.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Controllers\\LokacijaController.cs",
+              "RelativeToolTip": "Controllers\\LokacijaController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwv1gAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:00:34.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Views\\Lokacija\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lokacija\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Views\\Lokacija\\Create.cshtml",
+              "RelativeToolTip": "Views\\Lokacija\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T09:50:44.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240912094755_dodavanje.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094755_dodavanje.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240912094755_dodavanje.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094755_dodavanje.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240912094755_dodavanje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T09:47:55.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240912094345_koordinate.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094345_koordinate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240912094345_koordinate.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Data\\Migrations\\20240912094345_koordinate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240912094345_koordinate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T09:43:46.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lokacija.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Models\\Lokacija.cs",
+              "RelativeDocumentMoniker": "Models\\Lokacija.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Models\\Lokacija.cs",
+              "RelativeToolTip": "Models\\Lokacija.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T09:34:41.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexL.cshtml",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Views\\Lokacija\\IndexL.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lokacija\\IndexL.cshtml",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\HotelAplikacija\\HotelSa\\WebApplication4\\Views\\Lokacija\\IndexL.cshtml",
+              "RelativeToolTip": "Views\\Lokacija\\IndexL.cshtml",
+              "ViewState": "AQIAACEAAACAZmZmZmYkwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T09:34:08.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

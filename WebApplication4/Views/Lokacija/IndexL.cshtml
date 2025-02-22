@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApplication4.Models.Lokacija>
+
+@{
+    ViewData["Title"] = "IndexL";
+}
+
+<div style="top: 20%; margin-bottom: 2%">
+    <div id="myMap" style="position:relative;width:1400px;height:1000px;"></div>
+</div>
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+
+<script type='text/javascript'>
+    function GetMap() {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: 'Ai1sMyPC4iFRClH2-hR1cFfA6GOt_IShmN98W2as5NxnkwVL0-TdoM3uwjzAIYMf',
+            center: new Microsoft.Maps.Location(43.8563, 18.4131),
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+            zoom: 10
+        });
+
+        var infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+            visible: false
+        });
+        infobox.setMap(map);
+
+        var lokacije = @Html.Raw(Json.Serialize(Model));
+
+        lokacije.forEach(function (lokacija) {
+            var coords = lokacija.koordinate.split(',');
+            var lat = parseFloat(coords[0]);
+            var long = parseFloat(coords[1]);
+
+            var location = new Microsoft.Maps.Location(lat, long);
+            var pin = new Microsoft.Maps.Pushpin(location);
+            pin.metadata = {
+                title: lokacija.nazivLokacije,
+                description: lokacija.adresa
+            };
+
+            Microsoft.Maps.Events.addHandler(pin, 'click', function (e) {
+                infobox.setOptions({
+                    location: e.target.getLocation(),
+                    title: e.target.metadata.title,
+                    description: e.target.metadata.description,
+                    visible: true
+                });
+            });
+
+            map.entities.push(pin);
+        });
+    }
+</script>

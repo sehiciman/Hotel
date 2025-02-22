@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('pozadina-2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 0 90px;
+        }
+        .pravougaonik {
+            display: block; 
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            height: 618px;
+            width: 883px;
+            transition: transform 0.3s;
+            position: relative;
+            margin: 0 50px;
+            text-decoration: none; 
+        }
+        .pravougaonik img {
+            position: absolute;
+            height: 474px;
+            width: 447px;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+        .tekst {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            line-height: 78px;
+            letter-spacing: -1.6px;
+            color: rgb(89, 46, 36);
+            font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 32px;
+            text-align: center;
+            touch-action: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+        .pravougaonik:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a asp-controller="Lokacija" asp-action="IndexL" class="pravougaonik">
+        <span class="tekst">LOKACIJA</span>
+        <img src="lokacija.png" alt="lokacija">
+    </a>
+    <a asp-controller="Rezervacija" asp-action="Index" class="pravougaonik">
+        <span class="tekst">REZERVACIJA</span>
+        <img src="soba.png" alt="soba">
+    </a>
+</div>
+</body>
+</html>

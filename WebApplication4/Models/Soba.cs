@@ -11,7 +11,8 @@ namespace WebApplication4.Models
         public double cijenaSobe { get; set; }
 
         public int brojOsoba { get; set; }
-        bool rezervisana { get; set; } = false;
+        public bool Rezervisana { get; set; } = false;
+
 
         
     }

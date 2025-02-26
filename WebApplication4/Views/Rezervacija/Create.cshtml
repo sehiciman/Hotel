@@ -1,9 +1,10 @@
 ﻿@model WebApplication4.Models.Rezervacija
+
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Reservation";
 }
 
-<h1>Create</h1>
+<h1>Create Reservation</h1>
 
 <h4>Rezervacija</h4>
 <hr />
@@ -11,30 +12,36 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Room ID (Read-only) -->
             <div class="form-group">
                 <label asp-for="SobaId" class="control-label">Room ID</label>
                 <input asp-for="SobaId" class="form-control" readonly />
                 <input type="hidden" asp-for="SobaId" />
             </div>
 
+            <!-- Arrival Date -->
             <div class="form-group">
-                <label asp-for="VrijemeDolaska" class="control-label"></label>
-                <input asp-for="VrijemeDolaska" class="form-control" />
+                <label asp-for="VrijemeDolaska" class="control-label">Check-in Date</label>
+                <input asp-for="VrijemeDolaska" type="date" class="form-control" />
                 <span asp-validation-for="VrijemeDolaska" class="text-danger"></span>
             </div>
+
+            <!-- Departure Date -->
             <div class="form-group">
-                <label asp-for="VrijemeOdlaska" class="control-label"></label>
-                <input asp-for="VrijemeOdlaska" class="form-control" />
+                <label asp-for="VrijemeOdlaska" class="control-label">Check-out Date</label>
+                <input asp-for="VrijemeOdlaska" type="date" class="form-control" />
                 <span asp-validation-for="VrijemeOdlaska" class="text-danger"></span>
             </div>
+
+            <!-- Submit Button -->
             <div class="form-group">
-                <input type="submit" value="Create" class="btn"/> |
-                <a asp-action="Index" class="btn">Back to List</a>
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
 
 
 @section Scripts {

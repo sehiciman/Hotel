@@ -61,10 +61,17 @@ namespace WebApplication4.Controllers
             return View();
         }
         
-        [HttpPost] //provjera da li je soba reservisana
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,SobaId,VrijemeDolaska,VrijemeOdlaska")] Rezervacija rezervacija)
         {
+            
+            if (rezervacija.VrijemeOdlaska <= rezervacija.VrijemeDolaska)
+            {
+                ModelState.AddModelError("VrijemeOdlaska", "Greška u datumu! Datum odlaska mora biti poslije datuma odlaska.");
+                return View(rezervacija);
+            }
+
             if (ModelState.IsValid)
             {
                 bool roomReserved = _context.Rezervacije
@@ -75,7 +82,7 @@ namespace WebApplication4.Controllers
 
                 if (roomReserved)
                 {
-                    ModelState.AddModelError("", "This room is already reserved during the selected period.");
+                    ModelState.AddModelError("", "Soba je rezervisana u datom periodu.");
                     return View(rezervacija);
                 }
 

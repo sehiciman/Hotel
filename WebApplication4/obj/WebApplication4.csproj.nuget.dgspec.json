@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj": {}
+    "/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/WebApplication4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj": {
+    "/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj",
+        "projectUniqueName": "/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj",
-        "packagesPath": "C:\\Users\\jasmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\obj\\",
+        "projectPath": "/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/WebApplication4.csproj",
+        "packagesPath": "/Users/imansehic/.nuget/packages/",
+        "outputPath": "/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jasmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/imansehic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -94,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/imansehic/.dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

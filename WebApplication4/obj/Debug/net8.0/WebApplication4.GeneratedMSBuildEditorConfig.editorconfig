@@ -17,203 +17,205 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication4
 build_property.RootNamespace = WebApplication4
-build_property.ProjectDir = /Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/
+build_property.ProjectDir = C:\Users\jasmi\Desktop\Hotel\WebApplication4\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/imansehic/Downloads/GitHub/Hotel/WebApplication4
+build_property.MSBuildProjectDirectory = C:\Users\jasmi\Desktop\Hotel\WebApplication4
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvRGVsZXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvRGV0YWlscy5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvRWRpdC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvSW5kZXguY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/IndexA.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvSW5kZXhBLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/IndexA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcSW5kZXhBLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/IndexSvi.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvSW5kZXhTdmkuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/IndexSvi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcSW5kZXhTdmkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Korisnik/IndexU.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS29yaXNuaWsvSW5kZXhVLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Korisnik/IndexU.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcSW5kZXhVLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvRGVsZXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvRGV0YWlscy5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvRWRpdC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvSW5kZXguY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Lokacija/IndexL.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9rYWNpamEvSW5kZXhMLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Lokacija/IndexL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcSW5kZXhMLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Obavijest/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2JhdmlqZXN0L0NyZWF0ZS5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Obavijest/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JhdmlqZXN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Obavijest/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2JhdmlqZXN0L0RlbGV0ZS5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Obavijest/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JhdmlqZXN0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Obavijest/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2JhdmlqZXN0L0RldGFpbHMuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Obavijest/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JhdmlqZXN0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Obavijest/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2JhdmlqZXN0L0VkaXQuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Obavijest/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JhdmlqZXN0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Obavijest/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2JhdmlqZXN0L0luZGV4LmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Obavijest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JhdmlqZXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Ponuda/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9udWRhL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Ponuda/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udWRhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Ponuda/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9udWRhL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Ponuda/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udWRhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Ponuda/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9udWRhL0RldGFpbHMuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Ponuda/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udWRhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Ponuda/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9udWRhL0VkaXQuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Ponuda/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udWRhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Ponuda/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9udWRhL0luZGV4LmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Ponuda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udWRhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Rezervacija/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV6ZXJ2YWNpamEvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Rezervacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Rezervacija/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV6ZXJ2YWNpamEvRGVsZXRlLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Rezervacija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Rezervacija/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV6ZXJ2YWNpamEvRGV0YWlscy5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Rezervacija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Rezervacija/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV6ZXJ2YWNpamEvRWRpdC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Rezervacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Rezervacija/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV6ZXJ2YWNpamEvSW5kZXguY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Rezervacija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Soba/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29iYS9DcmVhdGUuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Soba/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Soba/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29iYS9EZWxldGUuY3NodG1s
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Soba/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Soba/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29iYS9EZXRhaWxzLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Soba/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Soba/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29iYS9FZGl0LmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Soba/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Soba/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29iYS9JbmRleC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Soba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/imansehic/Downloads/GitHub/Hotel/WebApplication4/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-cm89ykopb0
+[C:/Users/jasmi/Desktop/Hotel/WebApplication4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n52u41lzsi

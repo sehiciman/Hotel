@@ -378,6 +378,9 @@ namespace WebApplication6.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<bool>("Rezervisana")
+                        .HasColumnType("bit");
+
                     b.Property<int>("brojOsoba")
                         .HasColumnType("int");
 

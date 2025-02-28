@@ -6,21 +6,14 @@
 
 <h1>Create Reservation</h1>
 
-<h4>Rezervacija</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="All" class="text-danger"></div>
 
-            <!-- Room ID (Read-only) -->
-            <div class="form-group">
-                <label asp-for="SobaId" class="control-label">Room ID</label>
-                <input asp-for="SobaId" class="form-control" readonly />
-                <span asp-validation-for="SobaId" class="text-danger"></span>
-            </div>
+            <!-- SobaId -->
+            <input type="hidden" asp-for="SobaId" />
 
-          
             <!-- Arrival Date -->
             <div class="form-group">
                 <label asp-for="VrijemeDolaska" class="control-label">Check-in Date</label>
@@ -35,18 +28,9 @@
                 <span asp-validation-for="VrijemeOdlaska" class="text-danger"></span>
             </div>
 
-            <!-- Submit Button -->
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

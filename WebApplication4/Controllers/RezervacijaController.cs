@@ -66,14 +66,24 @@ namespace WebApplication4.Controllers
         public async Task<IActionResult> Create([Bind("ID,SobaId,VrijemeDolaska,VrijemeOdlaska")] Rezervacija rezervacija)
         {
             
-            if (rezervacija.VrijemeOdlaska <= rezervacija.VrijemeDolaska)
+            var soba = await _context.Sobe.FindAsync(rezervacija.SobaId);
+            if (soba == null)
             {
-                ModelState.AddModelError("VrijemeOdlaska", "Greška u datumu! Datum odlaska mora biti poslije datuma odlaska.");
-                return View(rezervacija);
+                ModelState.AddModelError("SobaId", "Izabrana soba ne postoji.");
+            }
+            else
+            {
+             
+                rezervacija.Soba = soba;
+        
+               
+                ModelState.Remove("Soba");
             }
 
+           
             if (ModelState.IsValid)
             {
+           
                 bool roomReserved = _context.Rezervacije
                     .Any(r => r.SobaId == rezervacija.SobaId &&
                               ((rezervacija.VrijemeDolaska >= r.VrijemeDolaska && rezervacija.VrijemeDolaska < r.VrijemeOdlaska) ||
@@ -82,17 +92,19 @@ namespace WebApplication4.Controllers
 
                 if (roomReserved)
                 {
-                    ModelState.AddModelError("", "Soba je rezervisana u datom periodu.");
+                    ModelState.AddModelError("", "Soba je zauzeta u datom periodu.");
                     return View(rezervacija);
                 }
 
+              
                 _context.Add(rezervacija);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+           
             return View(rezervacija);
         }
-
 
 
         // GET: Rezervacija/Edit/5

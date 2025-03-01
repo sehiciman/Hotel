@@ -27,27 +27,36 @@
         var lokacije = @Html.Raw(Json.Serialize(Model));
 
         lokacije.forEach(function (lokacija) {
-            var coords = lokacija.koordinate.split(',');
-            var lat = parseFloat(coords[0]);
-            var long = parseFloat(coords[1]);
+            if (lokacija.koordinate) {
+                var coords = lokacija.koordinate.split(',');
+                if (coords.length === 2) {
+                    var lat = parseFloat(coords[0].trim());
+                    var long = parseFloat(coords[1].trim());
 
-            var location = new Microsoft.Maps.Location(lat, long);
-            var pin = new Microsoft.Maps.Pushpin(location);
-            pin.metadata = {
-                title: lokacija.nazivLokacije,
-                description: lokacija.adresa
-            };
+                    if (!isNaN(lat) && !isNaN(long)) {
+                        var location = new Microsoft.Maps.Location(lat, long);
+                        var pin = new Microsoft.Maps.Pushpin(location, {
+                            title: lokacija.nazivLokacije
+                        });
 
-            Microsoft.Maps.Events.addHandler(pin, 'click', function (e) {
-                infobox.setOptions({
-                    location: e.target.getLocation(),
-                    title: e.target.metadata.title,
-                    description: e.target.metadata.description,
-                    visible: true
-                });
-            });
+                        pin.metadata = {
+                            title: lokacija.nazivLokacije,
+                            description: lokacija.adresa
+                        };
 
-            map.entities.push(pin);
+                        Microsoft.Maps.Events.addHandler(pin, 'click', function (e) {
+                            infobox.setOptions({
+                                location: e.target.getLocation(),
+                                title: e.target.metadata.title,
+                                description: e.target.metadata.description,
+                                visible: true
+                            });
+                        });
+
+                        map.entities.push(pin);
+                    }
+                }
+            }
         });
     }
 </script>

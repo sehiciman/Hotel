@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d60ffde-7e57-44da-afbe-4d4dfdb2e649" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Lokacija/IndexL.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Lokacija/IndexL.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LokacijaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LokacijaController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfo.cs" afterDir="false" />
@@ -130,7 +130,7 @@
       <workItem from="1740583190760" duration="689000" />
       <workItem from="1740736169684" duration="646000" />
       <workItem from="1740740042802" duration="1279000" />
-      <workItem from="1740828097405" duration="2088000" />
+      <workItem from="1740828097405" duration="3239000" />
     </task>
     <servers />
   </component>

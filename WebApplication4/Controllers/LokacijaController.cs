@@ -50,8 +50,7 @@ namespace WebApplication4.Controllers
         }
 
         // POST: Lokacija/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,nazivLokacije,adresa,Koordinate")] Lokacija lokacija)
@@ -82,22 +81,34 @@ namespace WebApplication4.Controllers
         }
 
         // POST: Lokacija/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,nazivLokacije,adresa,Koordinate")] Lokacija lokacija)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,nazivLokacije,adresa")] Lokacija lokacija)
         {
             if (id != lokacija.ID)
             {
                 return NotFound();
             }
 
+            var existingLokacija = await _context.Lokacije.FindAsync(id);
+            if (existingLokacija == null)
+            {
+                return NotFound();
+            }
+
+           
+            ModelState.Remove("Koordinate");
+
+           
+            existingLokacija.nazivLokacije = lokacija.nazivLokacije;
+            existingLokacija.adresa = lokacija.adresa;
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(lokacija);
+                    _context.Update(existingLokacija);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -113,6 +124,8 @@ namespace WebApplication4.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+           
             return View(lokacija);
         }
 

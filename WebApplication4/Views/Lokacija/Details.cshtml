@@ -4,27 +4,129 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-image: url('https://i.ibb.co/XJfkGJW/pozadina-2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+        }
 
-<div>
-    <h4>Lokacija</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nazivLokacije)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nazivLokacije)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.adresa)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.adresa)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+        .home-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(56, 34, 29, 1);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .home-button:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .form-container {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0);
+            text-align: center;
+        }
+
+        .btn {
+            background-color: rgba(56, 34, 29, 1);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .details-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        dt, dd {
+            margin-bottom: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+            display: inline-block;
+            width: 40%;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        dd {
+            display: inline-block;
+            width: 50%;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<a href="@Url.Action("Index", "Home")" class="home-button">Home</a>
+
+<div class="form-container">
+             <h1>Details</h1>
+             <h4>Lokacija</h4>
+             <hr />
+             <dl class="details-list">
+             <dt>@Html.DisplayNameFor(model => model.nazivLokacije)</dt>
+             <dd>@Html.DisplayFor(model => model.nazivLokacije)</dd>
+
+             <dt>@Html.DisplayNameFor(model => model.adresa)</dt>
+             <dd>@Html.DisplayFor(model => model.adresa)</dd>
+             </dl>
+
+             <div>
+             <a class="btn" asp-action="Edit" asp-route-id="@Model?.ID">Edit</a>
+             <a class="btn" asp-action="Index">Back to List</a>
+             </div>
+             </div>
+
+             @section Scripts {
+             @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+         }
+         </body>
+             </html>

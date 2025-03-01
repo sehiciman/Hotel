@@ -10,11 +10,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5d60ffde-7e57-44da-afbe-4d4dfdb2e649" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Rezervacija/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Rezervacija/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RezervacijaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RezervacijaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/SobaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SobaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Lokacija/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Lokacija/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Lokacija/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Lokacija/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Lokacija/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Lokacija/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Lokacija/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Lokacija/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebApplication4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebApplication4.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/WebApplication4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/WebApplication4.dll" afterDir="false" />
@@ -130,7 +136,7 @@
       <workItem from="1740583190760" duration="689000" />
       <workItem from="1740736169684" duration="646000" />
       <workItem from="1740740042802" duration="1279000" />
-      <workItem from="1740828097405" duration="447000" />
+      <workItem from="1740828097405" duration="1681000" />
     </task>
     <servers />
   </component>

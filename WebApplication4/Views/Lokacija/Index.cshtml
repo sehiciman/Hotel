@@ -4,38 +4,109 @@
     ViewData["Title"] = "Index";
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-image: url('https://i.ibb.co/XJfkGJW/pozadina-2.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: none;
+        }
+
+        .table th, .table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+            color: white;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .create-link {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .btn {
+            background-color: rgba(56, 34, 29, 1);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+<a href="@Url.Action("Index", "Home")" class="btn">Home</a>
+
 <h1>Index</h1>
 
-<p>
+<p class="create-link">
     <a asp-action="Create">Create New</a>
 </p>
+
 <table class="table">
     <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nazivLokacije)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.adresa)
-            </th>
-            <th></th>
-        </tr>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.nazivLokacije)</th>
+        <th>@Html.DisplayNameFor(model => model.adresa)</th>
+        <th>Actions</th>
+    </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model)
+    {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nazivLokacije)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.adresa)
-            </td>
+            <td>@Html.DisplayFor(modelItem => item.nazivLokacije)</td>
+            <td>@Html.DisplayFor(modelItem => item.adresa)</td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
+</body>
+</html>

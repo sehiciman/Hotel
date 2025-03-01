@@ -79,6 +79,12 @@ namespace WebApplication4.Controllers
                
                 ModelState.Remove("Soba");
             }
+            
+            if (rezervacija.VrijemeOdlaska <= rezervacija.VrijemeDolaska)
+            {
+                ModelState.AddModelError("VrijemeOdlaska", "Neispravan unos datuma.");
+                return View(rezervacija);
+            }
 
            
             if (ModelState.IsValid)
@@ -125,8 +131,7 @@ namespace WebApplication4.Controllers
         }
 
         // POST: Rezervacija/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+    
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,SobaId,VrijemeDolaska,VrijemeOdlaska")] Rezervacija rezervacija)

@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20250228085628_pocetak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250228085628_pocetak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\controllers\\lokacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:controllers\\lokacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\gost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\gost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\views\\lokacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\lokacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\views\\lokacija\\indexl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\lokacija\\indexl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\data\\migrations\\20240912094755_dodavanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:data\\migrations\\20240912094755_dodavanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\data\\migrations\\20240912094345_koordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:data\\migrations\\20240912094345_koordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|c:\\users\\jasmi\\desktop\\hotel\\webapplication4\\webapplication4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCEB0AFD-C5A6-40DF-A86C-CE91B175800E}|WebApplication4.csproj|solutionrelative:webapplication4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,88 +59,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250228085628_pocetak.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20250228085628_pocetak.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20250228085628_pocetak.cs",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20250228085628_pocetak.cs",
-              "RelativeToolTip": "Data\\Migrations\\20250228085628_pocetak.cs",
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:56:29.114Z",
+              "WhenOpened": "2025-03-02T15:00:41.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LokacijaController.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Controllers\\LokacijaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LokacijaController.cs",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Controllers\\LokacijaController.cs",
-              "RelativeToolTip": "Controllers\\LokacijaController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwv1gAAABfAAAAAAAAAA==",
+              "Title": "Gost.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Gost.cs",
+              "RelativeDocumentMoniker": "Models\\Gost.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Gost.cs",
+              "RelativeToolTip": "Models\\Gost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:00:34.955Z",
+              "WhenOpened": "2025-03-02T15:00:34.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Lokacija\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Lokacija\\Create.cshtml",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Lokacija\\Create.cshtml",
-              "RelativeToolTip": "Views\\Lokacija\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:50:44.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240912094755_dodavanje.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20240912094755_dodavanje.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240912094755_dodavanje.cs",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20240912094755_dodavanje.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240912094755_dodavanje.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:47:55.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240912094345_koordinate.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20240912094345_koordinate.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240912094345_koordinate.cs",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Data\\Migrations\\20240912094345_koordinate.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240912094345_koordinate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:43:46.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Lokacija.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Lokacija.cs",
-              "RelativeDocumentMoniker": "Models\\Lokacija.cs",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Lokacija.cs",
-              "RelativeToolTip": "Models\\Lokacija.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T09:34:41.895Z"
+              "WhenOpened": "2025-03-02T15:00:32.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IndexL.cshtml",
-              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Lokacija\\IndexL.cshtml",
-              "RelativeDocumentMoniker": "Views\\Lokacija\\IndexL.cshtml",
-              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Lokacija\\IndexL.cshtml",
-              "RelativeToolTip": "Views\\Lokacija\\IndexL.cshtml",
-              "ViewState": "AQIAACEAAACAZmZmZmYkwDUAAAAAAAAA",
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:00:30.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Administrator.cs",
+              "RelativeDocumentMoniker": "Models\\Administrator.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Models\\Administrator.cs",
+              "RelativeToolTip": "Models\\Administrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:00:20.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T09:34:08.33Z"
+              "WhenOpened": "2025-03-02T15:00:12.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Korisnik\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Views\\Korisnik\\Create.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T15:00:07.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:42:26.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApplication4",
+              "DocumentMoniker": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj",
+              "RelativeDocumentMoniker": "WebApplication4.csproj",
+              "ToolTip": "C:\\Users\\jasmi\\Desktop\\Hotel\\WebApplication4\\WebApplication4.csproj",
+              "RelativeToolTip": "WebApplication4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T14:42:20.987Z",
+              "EditorCaption": ""
             }
           ]
         }

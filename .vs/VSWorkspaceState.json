@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApplication4",
+    "\\WebApplication4\\Data",
+    "\\WebApplication4\\Data\\Migrations"
   ],
-  "SelectedNode": "\\WebApplication4.sln",
+  "SelectedNode": "\\WebApplication4\\Data\\Migrations\\20250228085628_pocetak.cs",
   "PreviewInSolutionExplorer": false
 }

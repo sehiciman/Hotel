@@ -10,7 +10,7 @@ namespace WebApplication4.Models
         public int ID { get; set; }
 
         [ForeignKey("Korisnik")]
-        public int KorisnikId { get; set; }  // KorisnikId umjesto korisnikId3.
+        public int KorisnikId { get; set; }  
         public Korisnik Korisnik { get; set; }
 
     }
